@@ -1,0 +1,40 @@
+@import url("https://fonts.google.com/specimen/Nunito+Sans");
+
+* {
+	box-sizing: border-box;
+	font-family: "Nunito Sans";
+}
+.country-container {
+	box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+.country-flag {
+	width: 100%;
+}
+.country-info-container {
+	width: 100%;
+	padding: 1rem;
+}
+
+.country-info-container > header {
+	font-weight: 800;
+	margin-bottom: 15px;
+	font-size: 20px;
+}
+
+.country-info-name {
+	margin: 2px;
+	font-weight: 600;
+}
+.country-info-value {
+	font-weight: 300;
+}
+#countries-container {
+	display: grid;
+	row-gap: 15px;
+	column-gap: 10px;
+	grid-template-columns: repeat(auto-fit, minmax(220px, 0.5fr));
+}
+
+#searchInput{
+	margin-bottom: 50px;
+}
